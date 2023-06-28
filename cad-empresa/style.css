@@ -1,0 +1,44 @@
+
+body{
+    background-color: rgb(48, 42, 42);
+}
+.container{
+
+background-color: rgb(94, 77, 77);
+box-sizing: 40px;
+color: rgb(161, 148, 148);
+padding: 30px;
+border-radius: 5px;
+text-align: center;
+margin-left: 650px;
+margin-right: 650px;
+border-color: black;
+margin-top: 275px;
+margin-bottom: 250px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    form,label{
+        display: block;
+        padding: 10px;
+    }
+
+.titulo{
+    font-size: 40px ;
+}
+
+.container [type=text]{
+    background-color: rgb(150, 131, 131);
+    color: rgb(92, 79, 79);
+    
+}
+
+.container [type=email]{
+    background-color: rgb(150, 131, 131);
+    color: rgb(92, 79, 79);
+}
+
+.container [type=submit]{
+    background-color: rgb(92, 79, 79);
+    color: rgb(161, 148, 148);
+    font-size: 15px;
+}
